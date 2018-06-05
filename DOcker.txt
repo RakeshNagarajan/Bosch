@@ -1,0 +1,5 @@
+Networking in Docker
+bridge (Default)
+host ( for swarm services)
+overlay (connect multiple Docker daemons together and enable swarm services to communicate with each other)
+macvlan (containers to look like physical hosts on your network, each with a unique MAC address)
